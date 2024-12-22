@@ -682,7 +682,7 @@ h2 {
     }
 
     /* Education & Skills Section */
-    .education .edu-item {
+    /* .education .edu-item {
         width: 100%;
     }
 
@@ -691,7 +691,7 @@ h2 {
     }
 
     /* Contact Section */
-    .contact-wrapper {
+    /* .contact-wrapper {
         flex-direction: column;
         padding: 20px;
     }
@@ -711,7 +711,7 @@ h2 {
         padding: 20px;
     }
 
-    /* Footer */
+
     .footer {
         flex-direction: column;
         padding: 20px;
@@ -736,19 +736,12 @@ h2 {
         justify-content: center;
         flex-wrap: wrap;
     }
-} */
+  */
 
 /* Small Devices */
 /* @media (max-width: 480px) {
     /* Header */
-    .header-left h1 {
-        font-size: 1.2rem;
-    }
-
-    .header-right a {
-        font-size: 1rem;
-    } */
-
+ 
     /* Main Home Section */
     /* .home-left h1 {
         font-size: 2rem;
