@@ -612,8 +612,8 @@ h2 {
 */
 
 /* Mobile Devices */
-@media (max-width: 768px) {
-    /* Header */
+/* @media (max-width: 768px) {
+   
     .header-left h1 {
         font-size: 1.5rem;
     }
@@ -630,10 +630,10 @@ h2 {
 
     .header-right a {
         font-size: 1.2rem;
-    }
+    } */
 
     /* Main Home Section */
-    
+/*     
     .main-home {
         flex-direction: column;
         height: auto;
@@ -661,10 +661,10 @@ h2 {
 
     .home-right {
         display: none;
-    }
+    } */
 
     /* About Us Section */
-    .main-aboutus {
+    /* .main-aboutus {
         flex-direction: column;
         padding: 20px;
     }
@@ -736,10 +736,10 @@ h2 {
         justify-content: center;
         flex-wrap: wrap;
     }
-}
+} */
 
 /* Small Devices */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     /* Header */
     .header-left h1 {
         font-size: 1.2rem;
@@ -747,10 +747,10 @@ h2 {
 
     .header-right a {
         font-size: 1rem;
-    }
+    } */
 
     /* Main Home Section */
-    .home-left h1 {
+    /* .home-left h1 {
         font-size: 2rem;
     }
 
@@ -761,17 +761,17 @@ h2 {
     .cta-button {
         font-size: 1rem;
         padding: 10px 30px;
-    }
+    } */
 
     /* About Us Section */
-    .main-aboutus {
+    /* .main-aboutus {
         padding: 15px;
     }
 
     .left-image img {
         width: 100%;
     }
-}
+} */
     /* Skills Section */
     /* .skills-list {
         grid-template-columns: 1fr;
