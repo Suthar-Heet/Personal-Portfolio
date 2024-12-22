@@ -122,7 +122,7 @@ header {
     position: relative;
 }
 
-.background-image {
+.home-right .background-image {
     background: url('./images/Homepage2.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
@@ -633,6 +633,21 @@ h2 {
     }
 
     /* Main Home Section */
+    /* Media query for screens 768px or smaller (tablets and mobile) */
+@media (max-width: 768px) {
+    .home-right .background-image {
+        background: url('./images/Homepage2-small.jpg') no-repeat center center/cover; /* Change image for smaller screens */
+        filter: brightness(70%); /* Adjust brightness for mobile */
+    }
+}
+
+/* Media query for screens 480px or smaller (mobile) */
+@media (max-width: 480px) {
+    .home-right .background-image {
+        background: url('./images/Homepage2-mobile.jpg') no-repeat center center/cover; /* Change image for mobile */
+        filter: brightness(80%); /* Adjust brightness further */
+    }
+}
     .main-home {
         flex-direction: column;
         height: auto;
