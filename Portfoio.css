@@ -633,21 +633,7 @@ h2 {
     }
 
     /* Main Home Section */
-    /* Media query for screens 768px or smaller (tablets and mobile) */
-@media (max-width: 768px) {
-    .home-right .background-image {
-        background: url('./images/Homepage2-small.jpg') no-repeat center center/cover; /* Change image for smaller screens */
-        filter: brightness(70%); /* Adjust brightness for mobile */
-    }
-}
-
-/* Media query for screens 480px or smaller (mobile) */
-@media (max-width: 480px) {
-    .home-right .background-image {
-        background: url('./images/Homepage2-mobile.jpg') no-repeat center center/cover; /* Change image for mobile */
-        filter: brightness(80%); /* Adjust brightness further */
-    }
-}
+    
     .main-home {
         flex-direction: column;
         height: auto;
@@ -785,14 +771,14 @@ h2 {
     .left-image img {
         width: 100%;
     }
-
+}
     /* Skills Section */
-    .skills-list {
+    /* .skills-list {
         grid-template-columns: 1fr;
-    }
+    } */
 
     /* Footer */
-    .footer-left h2 {
+    /* .footer-left h2 {
         font-size: 1.5rem;
     }
 
@@ -812,4 +798,4 @@ h2 {
     .footer-bottom {
         font-size: 0.8rem;
     }
-}
+} */
